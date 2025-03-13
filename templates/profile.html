@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="profile">
+        <h1 class="profile__name">{{ name }}</h1>
+        <div class="profile__details">
+            <p class="profile__age">Age: {{ age }}</p>
+            <p class="profile__bio">{{ bio }}</p>
+            <h2 class="profile__interests-title">Interests</h2>
+            <ul class="profile__interests">
+                {% for interest in interests %}
+                    <li class="profile__interest">{{ interest }}</li>
+                {% endfor %}
+            </ul>
+            <p class="profile__favorite-song">Favorite Song: {{ favorite_song }}</p>
+        </div>
+    </div>
+</body>
+</html>
