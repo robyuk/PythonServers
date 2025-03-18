@@ -85,3 +85,27 @@ Here are commands using `Invoke-WebRequest` in PowerShell:
     Invoke-WebRequest -Uri http://localhost:5000/products/1 -Method PATCH -ContentType "application/json" -Body $body
     ```
    
+## To test the blog server
+
+### Install required packages
+pip install Flask Flask-HTTPAuth werkzeug
+
+### Run the Flask server
+python blog_server.py
+
+Open a new PowerShell window to run the following test commands
+
+### Test GET all blogs (should return an empty list initially)
+Invoke-RestMethod -Uri http://127.0.0.1:5000/blogs -Method Get -Headers @{Authorization="Basic $( [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes('admin:secret')) )"}
+
+### Test POST create a new blog
+Invoke-RestMethod -Uri http://127.0.0.1:5000/blogs -Method Post -Headers @{Authorization="Basic $( [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes('admin:secret')) )"} -Body (@{title="First Blog"; content="This is the first blog post."} | ConvertTo-Json) -ContentType "application/json"
+
+### Test GET specific blog by ID
+Invoke-RestMethod -Uri http://127.0.0.1:5000/blogs/1 -Method Get -Headers @{Authorization="Basic $( [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes('admin:secret')) )"}
+
+### Test PUT update a blog
+Invoke-RestMethod -Uri http://127.0.0.1:5000/blogs/1 -Method Put -Headers @{Authorization="Basic $( [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes('admin:secret')) )"} -Body (@{title="Updated Blog"; content="This is the updated blog post."} | ConvertTo-Json) -ContentType "application/json"
+
+### Test DELETE a blog
+Invoke-RestMethod -Uri http://127.0.0.1:5000/blogs/1 -Method Delete -Headers @{Authorization="Basic $( [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes('admin:secret')) )"}

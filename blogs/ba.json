@@ -1,0 +1,86 @@
+[
+    {
+        "content": "This is the updated blog post.",
+        "title": "Updated Blog",
+        "id": 1,
+        "created_at": "2025-03-14T16:44:56.434026",
+        "updated_at": "2025-03-14T16:54:29.989984"
+    },
+    {
+        "title": "A Day in the Life of a Business Analyst",
+        "content": "Explore the daily tasks and responsibilities of a Business Analyst (BA). Highlight key activities such as requirements gathering, stakeholder meetings, data analysis, and project management. Include a few anecdotes or case studies to illustrate how a BA adds value to a project.",
+        "id": 2,
+        "created_at": "2025-03-14T15:04:56.434026",
+        "updated_at": "2025-03-14T15:04:56.434026"
+    },
+    {
+        "title": "Top Skills Every Business Analyst Should Have",
+        "content": "Discuss the essential skills for a successful Business Analyst, including technical skills (such as data modeling and SQL), analytical skills, communication skills, and problem-solving abilities. Offer tips on how to develop and hone these skills through education, training, and real-world experience.",
+        "id": 3,
+        "created_at": "2025-03-14T15:14:56.434026",
+        "updated_at": "2025-03-14T15:14:56.434026"
+    },
+    {
+        "title": "The Business Analyst Career Path: From Entry-Level to Expert",
+        "content": "Detail the typical career progression for a Business Analyst, from entry-level roles to senior positions and beyond. Cover the qualifications and experiences needed at each stage, and provide advice on how to advance in the field. Include examples of potential career paths and specializations within the BA domain.",
+        "id": 4,
+        "created_at": "2025-03-14T15:24:56.434026",
+        "updated_at": "2025-03-14T15:24:56.434026"
+    },
+    {
+        "title": "How to Effectively Communicate with Stakeholders as a Business Analyst",
+        "content": "Highlight the importance of stakeholder communication for a BA. Offer strategies for building strong relationships with stakeholders, conducting effective meetings, and ensuring clear and concise communication. Include tips for handling difficult conversations and managing stakeholder expectations.",
+        "id": 5,
+        "created_at": "2025-03-14T15:34:56.434026",
+        "updated_at": "2025-03-14T15:34:56.434026"
+    },
+    {
+        "title": "The Impact of Business Analysis on Project Success",
+        "content": "Explain how effective business analysis contributes to the success of a project. Discuss the role of a BA in identifying and addressing business needs, reducing risks, and ensuring that project outcomes align with business objectives. Share examples of successful projects where business analysis played a crucial role.",
+        "id": 6,
+        "created_at": "2025-03-14T15:44:56.434026",
+        "updated_at": "2025-03-14T15:44:56.434026"
+    },
+    {
+        "title": "A new blog post",
+        "content": "This blog post was entered in the browser using the new_blog.html template form.  However, the text boxes are too small!",
+        "id": 7,
+        "created_at": "2025-03-15T18:41:57.609753",
+        "updated_at": "2025-03-15T18:41:57.609753"
+    },
+    {
+        "title": "Another New Blog Post",
+        "content": "This is another new blog post but the text boxes are still too small.  Lets make them much bigger!",
+        "id": 8,
+        "created_at": "2025-03-15T18:47:55.719828",
+        "updated_at": "2025-03-15T18:47:55.719828"
+    },
+    {
+        "title": "Yet another",
+        "content": "more content",
+        "id": 9,
+        "created_at": "2025-03-15T18:55:34.993407",
+        "updated_at": "2025-03-15T18:55:34.993407"
+    },
+    {
+        "title": "too many posts now",
+        "content": "Next, I'll work out how to delete some of these bloggs!",
+        "id": 10,
+        "created_at": "2025-03-15T18:57:54.780288",
+        "updated_at": "2025-03-15T18:57:54.780288"
+    },
+    {
+        "title": "Back to the start again",
+        "content": "anther new blog post",
+        "id": 11,
+        "created_at": "2025-03-15T19:03:14.344917",
+        "updated_at": "2025-03-15T19:03:14.344917"
+    },
+    {
+        "title": "Now the text boxes are bigger",
+        "content": "However the content text box is still only one line deep.  I need to create some more text here to see if the wrapping is working.  It is not!",
+        "id": 12,
+        "created_at": "2025-03-15T19:08:35.980026",
+        "updated_at": "2025-03-15T19:08:35.980026"
+    }
+]
